@@ -1,0 +1,20 @@
+{
+  "name": "import-dynamodb-local",
+  "version": "1.0.0",
+  "description": "Export Dynamodb remote data and import into local dynamodb",
+  "main": "index.js",
+  "bin": "./import-dynamodb-local.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Paalamugan",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cloudformation": "^3.577.0",
+    "@aws-sdk/client-dynamodb": "^3.577.0",
+    "@aws-sdk/client-lambda": "^3.577.0",
+    "@aws-sdk/lib-dynamodb": "^3.577.0",
+    "yargs": "^17.7.2"
+  }
+}
